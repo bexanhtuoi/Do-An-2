@@ -1,0 +1,32 @@
+=== THONG KE TONG QUAN ===
+Tong so bai: 124,792
+Khoang thoi gian: 2011-03-25 -> 2026-06-05
+
+Enrich thanh cong: 4,398 bai
+Khoang thoi gian bai enrich: 2012-10-23 -> 2026-06-05
+
+Top 5 nguon:
+  CafeBiz BĐS: 20,060
+  CafeBiz TC: 15,922
+  CafeF DN: 10,436
+  CafeF Vĩ mô: 10,419
+  CafeF TC: 10,339
+
+Top 5 ma CP (NEWS_RAW):
+  NVL: 2,215
+  VIC: 1,941
+  VHM: 1,771
+  DXG: 273
+  VRE: 272
+
+Bieu do da tao (10 file):
+  1. top_sources.png (98KB)
+  2. articles_by_year.png (62KB)
+  3. monthly_trend.png (86KB)
+  4. category_pie.png (150KB)
+  5. ticker_mentions.png (67KB)
+  6. source_enriched_pie.png (147KB)
+  7. enrichment_success.png (56KB)
+  8. source_ticker_heatmap.png (106KB)
+  9. date_range_coverage.png (95KB)
+  10. daily_article_trend.png (187KB)

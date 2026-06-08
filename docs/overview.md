@@ -47,8 +47,8 @@ COMPANY_INFO | SOURCE_LIST | SOURCE_INDEX | NEWS_RAW | CONFIG_SOURCES | CONFIG_K
 VHM, VIC, VRE, NVL, PDR, DXG, KDH, NLG, CEO, DIG, KBC, BCM, SZC, VCG, CTD, HHV, CII
 
 ## Liên kết
-- [[Projects/DA2/plan-crawl|Chi tiết nguồn crawl]]
-- [[Projects/DA2/feature|Tính năng]]
-- [[Projects/DA2/results|Kết quả]]
-- [[Projects/DA2/workflow|Workflow]]
-- [[Projects/DA2/task|Task list]]
+- [Chi tiết nguồn crawl](plan-crawl.md)
+- [Tính năng](feature.md)
+- [Kết quả](results.md)
+- [Workflow](workflow.md)
+- [Task list](task.md)

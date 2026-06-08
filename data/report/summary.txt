@@ -1,32 +1,73 @@
-=== THONG KE TONG QUAN ===
-Tong so bai: 124,792
-Khoang thoi gian: 2011-03-25 -> 2026-06-05
+=== DA2 CHART REPORT ===
+Generated: 2026-06-06
+Total charts: 23
+Data source: K4_CRAWL_NHOM_2_BAT_DONG_SAN_XAY_DUNG_KCN.xlsx
 
-Enrich thanh cong: 4,398 bai
-Khoang thoi gian bai enrich: 2012-10-23 -> 2026-06-05
+data/report/01_top_sources.png
+  - Top nguồn tin: CafeBiz BĐS là nguồn chiếm ưu thế tuyệt đối với 19,999 bài
 
-Top 5 nguon:
-  CafeBiz BĐS: 20,060
-  CafeBiz TC: 15,922
-  CafeF DN: 10,436
-  CafeF Vĩ mô: 10,419
-  CafeF TC: 10,339
+data/report/02_articles_by_year.png
+  - Bài viết theo năm: Năm 2025 có số lượng bài viết cao nhất: 44,991 bài
 
-Top 5 ma CP (NEWS_RAW):
-  NVL: 2,215
-  VIC: 1,941
-  VHM: 1,771
-  DXG: 273
-  VRE: 272
+data/report/03_monthly_trend.png
+  - Xu hướng theo tháng: Trung bình 1,881 bài/tháng, xu hướng tăng dần
 
-Bieu do da tao (10 file):
-  1. top_sources.png (98KB)
-  2. articles_by_year.png (62KB)
-  3. monthly_trend.png (86KB)
-  4. category_pie.png (150KB)
-  5. ticker_mentions.png (67KB)
-  6. source_enriched_pie.png (147KB)
-  7. enrichment_success.png (56KB)
-  8. source_ticker_heatmap.png (106KB)
-  9. date_range_coverage.png (95KB)
-  10. daily_article_trend.png (187KB)
+data/report/04_category_distribution.png
+  - Phân bố chuyên mục: BĐS chiếm 36.1% tổng số bài viết
+
+data/report/05_ticker_mentions.png
+  - Số lần đề cập mã CP: NVL dẫn đầu với 2,215 lần đề cập, gấp 2215.0 lần mã xếp thứ 2
+
+data/report/06_source_enriched.png
+  - Nguồn enriched: Top 3 nguồn chiếm 63.7% tổng số bài enriched
+
+data/report/07_enrichment_status.png
+  - Tình trạng Enrichment: Tỷ lệ enrich thành công: 98.6%
+
+data/report/08_source_ticker_heatmap.png
+  - Heatmap nguồn và mã CP: NVL được đề cập nhiều nhất ở hầu hết các nguồn tin
+
+data/report/09_source_coverage_timeline.png
+  - Timeline phủ sóng nguồn: Nguồn lâu nhất: API:CafeF BĐS - Nội thất PT (2011-03-25)
+
+data/report/10_daily_article_trend.png
+  - Xu hướng hàng ngày: Xu hướng tăng ổn định, không có sự sụt giảm đột biến
+
+data/report/11_ticker_cooccurrence.png
+  - Đồng xuất hiện mã CP: Cặp VIC-VHM đồng xuất hiện nhiều nhất: 1085 lần
+
+data/report/12_content_length_distribution.png
+  - Phân bố độ dài nội dung: Độ dài nội dung trung bình: 5,573 ký tự
+
+data/report/13_ticker_year_trend.png
+  - Xu hướng mã CP theo năm: NVL dẫn đầu về xu hướng đề cập qua các năm với mức tăng trưởng mạnh nhất
+
+data/report/14_source_category_stacked.png
+  - Cơ cấu chuyên mục nguồn tin: CafeF và CafeBiz có cơ cấu chuyên mục đa dạng nhất
+
+data/report/15_keyword_match_rate.png
+  - Tỷ lệ match keyword theo nguồn: Nguồn API:CafeBiz CK có tỷ lệ match keyword cao nhất: 9.9%
+
+data/report/16_yearly_category_trend.png
+  - Xu hướng chuyên mục theo năm: BĐS chiếm tỷ trọng ngày càng tăng trong cơ cấu chuyên mục qua các năm
+
+data/report/17_weekday_distribution.png
+  - Phân bố theo thứ: Ngày có nhiều bài nhất: Thứ 6 (19,253 bài)
+
+data/report/18_ticker_industry_group.png
+  - Tương quan mã CP và ngành: NVL và VIC có sự hiện diện mạnh ở cả 3 nhóm ngành chính
+
+data/report/19_enriched_vs_total_by_source.png
+  - So sánh total và enriched theo nguồn: Tỷ lệ enriched/total cao nhất: API:CafeF DN (8.2%)
+
+data/report/20_yearly_ticker_bar.png
+  - Top mã CP theo năm: NVL tăng trưởng vượt bậc giai đoạn 2024-2026, bỏ xa các mã còn lại
+
+data/report/21_crawl_timeline.png
+  - Tiến trình crawl: Quá trình enrich hoàn thành trong 26 phút cho 4,462 bài
+
+data/report/22_category_detail_pie.png
+  - Phân bố chuyên mục (pie): BĐS chiếm 36.1% tổng số bài viết
+
+data/report/23_status_pie.png
+  - Phân bố trạng thái: 96.4% bài ở trạng thái 'new', 3.5% được enrich

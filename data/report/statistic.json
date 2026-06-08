@@ -5,9 +5,8 @@
   "sheets": 10,
   "overview": {
     "total_links_crawled": 124792,
-    "total_links_enriched": 4462,
+    "total_articles_enriched": 4462,
     "enrichment_rate_pct": 3.58,
-    "total_failed_fetches": 13,
     "date_range": {
       "from": "2011-03-25",
       "to": "2026-06-05",
@@ -15,94 +14,15 @@
     }
   },
   "sources": {
-    "total_unique_sources": 104,
+    "total_unique_source_channels": 104,
     "by_type": {
       "RSS": 38,
       "RSS+API": 3
     },
-    "total_rss_feeds": 90,
-    "total_api_zones": 14,
-    "rss_sources_list": [
-      "RSS:24h KD",
-      "RSS:ANTĐ KT",
-      "RSS:AN_NINH_TIEN_TE BDS",
-      "RSS:AN_NINH_TIEN_TE CK",
-      "RSS:AN_NINH_TIEN_TE KD",
-      "RSS:AN_NINH_TIEN_TE TC",
-      "RSS:Biz Việt",
-      "RSS:Báo Xây dựng BĐS",
-      "RSS:Báo Xây dựng KT",
-      "RSS:CAND KT",
-      "RSS:CafeBiz BĐS",
-      "RSS:CafeBiz CK",
-      "RSS:Cafef BDS",
-      "RSS:Cafef CK",
-      "RSS:Cafef DN",
-      "RSS:Cafef TC",
-      "RSS:Công Luận KT",
-      "RSS:Công Thương",
-      "RSS:DAU_TU_VIET_NAM BDS",
-      "RSS:DAU_TU_VIET_NAM CK"
-    ],
-    "api_sources_list": [
-      "API:CafeBiz BĐS",
-      "API:CafeBiz CK",
-      "API:CafeBiz Startup",
-      "API:CafeBiz Sản xuất",
-      "API:CafeBiz TC",
-      "API:CafeF BĐS",
-      "API:CafeF BĐS - Du lịch",
-      "API:CafeF BĐS - Nội thất PT",
-      "API:CafeF BĐS - Thị trường",
-      "API:CafeF CK",
-      "API:CafeF DN",
-      "API:CafeF TC",
-      "API:CafeF Thị trường",
-      "API:CafeF Vĩ mô"
-    ],
-    "source_names_list": [
-      "24h",
-      "ANTĐ",
-      "AN_NINH_TIEN_TE",
-      "Biz Việt",
-      "Báo Xây dựng",
-      "CAND",
-      "CafeBiz",
-      "CafeF",
-      "Công Luận",
-      "Công Thương",
-      "DAU_TU_VIET_NAM",
-      "DOANH_NGHIEP_VN",
-      "DOI_SONG_VN",
-      "Diễn đàn KT",
-      "Docnhanh",
-      "Dân trí",
-      "Infonet",
-      "KTVN Times",
-      "Kiến Thức",
-      "NGAN_HANG_VN",
-      "NLD",
-      "Nguoiduatin",
-      "Nhân Dân",
-      "PLO",
-      "Reatimes",
-      "Soha",
-      "Sức Khỏe & ĐS",
-      "TINMOI",
-      "Thanh Niên",
-      "Tiền Phong",
-      "Tuổi Trẻ",
-      "VIETNAM_BIZ",
-      "VTC News",
-      "VTV",
-      "VietTimes",
-      "VietnamNet",
-      "VietnamPlus",
-      "VnBusiness",
-      "VnEconomy",
-      "VnExpress",
-      "ZNEWS"
-    ]
+    "rss_feeds": 9579,
+    "api_zones": 115213,
+    "rss_pct": 7.7,
+    "api_pct": 92.3
   },
   "categories": {
     "total_categories": 11,
@@ -153,24 +73,17 @@
       }
     }
   },
-  "articles": {
-    "total_source_index": 124792,
-    "total_news_raw": 4462,
-    "by_status": {
+  "articles_pipeline": {
+    "stage_1_links_crawled": 124792,
+    "stage_2_title_matched": 4398,
+    "stage_3_content_fetched_ok": 4398,
+    "stage_4_content_failed": 13,
+    "retention_rate_1_to_2_pct": 3.52,
+    "retention_rate_2_to_3_pct": 100.0,
+    "status_breakdown": {
       "new_unprocessed": 120330,
-      "mentioned_enriched": 4398,
+      "mentioned": 4398,
       "failed": 64
-    },
-    "status_pct": {
-      "new_pct": 96.4,
-      "mentioned_pct": 3.5,
-      "failed_pct": 0.1
-    },
-    "rss_vs_api": {
-      "rss_articles": 9579,
-      "api_articles": 115213,
-      "rss_pct": 7.7,
-      "api_pct": 92.3
     }
   },
   "companies_and_tickers": {
@@ -298,79 +211,70 @@
       "SZC": 30,
       "CII": 1
     },
-    "total_mentions": 8203
-  },
-  "top_statistics": {
-    "top_5_sources": [
+    "top_3_tickers": [
       {
-        "rank": 1,
-        "name": "API:CafeBiz BĐS",
-        "count": 19999
-      },
-      {
-        "rank": 2,
-        "name": "API:CafeBiz TC",
-        "count": 15922
-      },
-      {
-        "rank": 3,
-        "name": "API:CafeF DN",
-        "count": 10436
-      },
-      {
-        "rank": 4,
-        "name": "API:CafeF Vĩ mô",
-        "count": 10419
-      },
-      {
-        "rank": 5,
-        "name": "API:CafeF TC",
-        "count": 10339
-      }
-    ],
-    "top_5_tickers": [
-      {
-        "rank": 1,
         "ticker": "NVL",
         "count": 2215
       },
       {
-        "rank": 2,
         "ticker": "VIC",
         "count": 1941
       },
       {
-        "rank": 3,
         "ticker": "VHM",
         "count": 1771
-      },
-      {
-        "rank": 4,
-        "ticker": "DXG",
-        "count": 273
-      },
-      {
-        "rank": 5,
-        "ticker": "VRE",
-        "count": 272
       }
     ],
-    "top_3_categories": [
-      {
-        "rank": 1,
-        "name": "BĐS",
-        "count": 45092
-      },
-      {
-        "rank": 2,
-        "name": "TC",
-        "count": 27538
-      },
-      {
-        "rank": 3,
-        "name": "CK",
-        "count": 12442
-      }
+    "ticker_diversity": 17
+  },
+  "industry_coverage": {
+    "total_industry_groups": 12,
+    "groups": [
+      [
+        "Bất động sản nhà ở",
+        1892
+      ],
+      [
+        "Bất động sản nhà ở, nghỉ dưỡng",
+        1252
+      ],
+      [
+        "Đa ngành (BĐS, bán lẻ, y tế, giáo dục)",
+        856
+      ],
+      [
+        "Xây dựng",
+        103
+      ],
+      [
+        "Dịch vụ và môi giới bất động sản",
+        71
+      ],
+      [
+        "Hạ tầng giao thông",
+        69
+      ],
+      [
+        "Xây dựng và bất động sản",
+        41
+      ],
+      [
+        "Khu công nghiệp và đô thị",
+        38
+      ],
+      [
+        "Bất động sản và xây dựng",
+        36
+      ],
+      [
+        "Khu công nghiệp và hạ tầng",
+        27
+      ]
+    ],
+    "domains_covered": [
+      "Bất động sản",
+      "Xây dựng",
+      "Khu công nghiệp"
     ]
   }
 }

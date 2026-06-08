@@ -1,0 +1,376 @@
+{
+  "project": "DA2 - Crawl tin tức BĐS & CK",
+  "generated_at": "2026-06-06",
+  "data_source": "K4_CRAWL_NHOM_2_BAT_DONG_SAN_XAY_DUNG_KCN.xlsx",
+  "sheets": 10,
+  "overview": {
+    "total_links_crawled": 124792,
+    "total_links_enriched": 4462,
+    "enrichment_rate_pct": 3.58,
+    "total_failed_fetches": 13,
+    "date_range": {
+      "from": "2011-03-25",
+      "to": "2026-06-05",
+      "total_days": 5551
+    }
+  },
+  "sources": {
+    "total_unique_sources": 104,
+    "by_type": {
+      "RSS": 38,
+      "RSS+API": 3
+    },
+    "total_rss_feeds": 90,
+    "total_api_zones": 14,
+    "rss_sources_list": [
+      "RSS:24h KD",
+      "RSS:ANTĐ KT",
+      "RSS:AN_NINH_TIEN_TE BDS",
+      "RSS:AN_NINH_TIEN_TE CK",
+      "RSS:AN_NINH_TIEN_TE KD",
+      "RSS:AN_NINH_TIEN_TE TC",
+      "RSS:Biz Việt",
+      "RSS:Báo Xây dựng BĐS",
+      "RSS:Báo Xây dựng KT",
+      "RSS:CAND KT",
+      "RSS:CafeBiz BĐS",
+      "RSS:CafeBiz CK",
+      "RSS:Cafef BDS",
+      "RSS:Cafef CK",
+      "RSS:Cafef DN",
+      "RSS:Cafef TC",
+      "RSS:Công Luận KT",
+      "RSS:Công Thương",
+      "RSS:DAU_TU_VIET_NAM BDS",
+      "RSS:DAU_TU_VIET_NAM CK"
+    ],
+    "api_sources_list": [
+      "API:CafeBiz BĐS",
+      "API:CafeBiz CK",
+      "API:CafeBiz Startup",
+      "API:CafeBiz Sản xuất",
+      "API:CafeBiz TC",
+      "API:CafeF BĐS",
+      "API:CafeF BĐS - Du lịch",
+      "API:CafeF BĐS - Nội thất PT",
+      "API:CafeF BĐS - Thị trường",
+      "API:CafeF CK",
+      "API:CafeF DN",
+      "API:CafeF TC",
+      "API:CafeF Thị trường",
+      "API:CafeF Vĩ mô"
+    ],
+    "source_names_list": [
+      "24h",
+      "ANTĐ",
+      "AN_NINH_TIEN_TE",
+      "Biz Việt",
+      "Báo Xây dựng",
+      "CAND",
+      "CafeBiz",
+      "CafeF",
+      "Công Luận",
+      "Công Thương",
+      "DAU_TU_VIET_NAM",
+      "DOANH_NGHIEP_VN",
+      "DOI_SONG_VN",
+      "Diễn đàn KT",
+      "Docnhanh",
+      "Dân trí",
+      "Infonet",
+      "KTVN Times",
+      "Kiến Thức",
+      "NGAN_HANG_VN",
+      "NLD",
+      "Nguoiduatin",
+      "Nhân Dân",
+      "PLO",
+      "Reatimes",
+      "Soha",
+      "Sức Khỏe & ĐS",
+      "TINMOI",
+      "Thanh Niên",
+      "Tiền Phong",
+      "Tuổi Trẻ",
+      "VIETNAM_BIZ",
+      "VTC News",
+      "VTV",
+      "VietTimes",
+      "VietnamNet",
+      "VietnamPlus",
+      "VnBusiness",
+      "VnEconomy",
+      "VnExpress",
+      "ZNEWS"
+    ]
+  },
+  "categories": {
+    "total_categories": 11,
+    "by_category": {
+      "BĐS": {
+        "count": 45092,
+        "pct": 36.1
+      },
+      "TC": {
+        "count": 27538,
+        "pct": 22.1
+      },
+      "CK": {
+        "count": 12442,
+        "pct": 10.0
+      },
+      "TT": {
+        "count": 11040,
+        "pct": 8.8
+      },
+      "DN": {
+        "count": 10900,
+        "pct": 8.7
+      },
+      "ĐT": {
+        "count": 10478,
+        "pct": 8.4
+      },
+      "KD": {
+        "count": 4952,
+        "pct": 4.0
+      },
+      "DT": {
+        "count": 914,
+        "pct": 0.7
+      },
+      "SX": {
+        "count": 826,
+        "pct": 0.7
+      },
+      "TG": {
+        "count": 560,
+        "pct": 0.4
+      },
+      "XD": {
+        "count": 50,
+        "pct": 0.0
+      }
+    }
+  },
+  "articles": {
+    "total_source_index": 124792,
+    "total_news_raw": 4462,
+    "by_status": {
+      "new_unprocessed": 120330,
+      "mentioned_enriched": 4398,
+      "failed": 64
+    },
+    "status_pct": {
+      "new_pct": 96.4,
+      "mentioned_pct": 3.5,
+      "failed_pct": 0.1
+    },
+    "rss_vs_api": {
+      "rss_articles": 9579,
+      "api_articles": 115213,
+      "rss_pct": 7.7,
+      "api_pct": 92.3
+    }
+  },
+  "companies_and_tickers": {
+    "total_companies": 17,
+    "companies": [
+      {
+        "ticker": "VHM",
+        "name": "Công ty Cổ phần Vinhomes",
+        "exchange": "HOSE",
+        "industry": "Bất động sản nhà ở"
+      },
+      {
+        "ticker": "VIC",
+        "name": "Tập đoàn Vingroup",
+        "exchange": "HOSE",
+        "industry": "Đa ngành (BĐS, bán lẻ, y tế, giáo dục)"
+      },
+      {
+        "ticker": "VRE",
+        "name": "Công ty Cổ phần Vincom Retail",
+        "exchange": "HOSE",
+        "industry": "Bất động sản bán lẻ"
+      },
+      {
+        "ticker": "NVL",
+        "name": "Công ty Cổ phần Tập đoàn Đầu tư Địa ốc Nova (Novaland)",
+        "exchange": "HOSE",
+        "industry": "Bất động sản nhà ở, nghỉ dưỡng"
+      },
+      {
+        "ticker": "PDR",
+        "name": "Công ty Cổ phần Phát triển Bất động sản Phát Đạt",
+        "exchange": "HOSE",
+        "industry": "Bất động sản nhà ở"
+      },
+      {
+        "ticker": "DXG",
+        "name": "Tập đoàn Đất Xanh",
+        "exchange": "HOSE",
+        "industry": "Dịch vụ và môi giới bất động sản"
+      },
+      {
+        "ticker": "KDH",
+        "name": "Công ty Cổ phần Đầu tư và Kinh doanh Nhà Khang Điền",
+        "exchange": "HOSE",
+        "industry": "Bất động sản nhà ở"
+      },
+      {
+        "ticker": "NLG",
+        "name": "Công ty Cổ phần Đầu tư Nam Long",
+        "exchange": "HOSE",
+        "industry": "Bất động sản nhà ở"
+      },
+      {
+        "ticker": "CEO",
+        "name": "Tập đoàn CEO",
+        "exchange": "HNX",
+        "industry": "Bất động sản và dịch vụ liên quan"
+      },
+      {
+        "ticker": "DIG",
+        "name": "Tổng Công ty Cổ phần Đầu tư Phát triển Xây dựng",
+        "exchange": "HOSE",
+        "industry": "Bất động sản và xây dựng"
+      },
+      {
+        "ticker": "KBC",
+        "name": "Tổng Công ty Phát triển Đô thị Kinh Bắc",
+        "exchange": "HOSE",
+        "industry": "Khu công nghiệp và đô thị"
+      },
+      {
+        "ticker": "BCM",
+        "name": "Tổng Công ty Đầu tư và Phát triển Công nghiệp Becamex",
+        "exchange": "HOSE",
+        "industry": "Khu công nghiệp và hạ tầng"
+      },
+      {
+        "ticker": "SZC",
+        "name": "Công ty Cổ phần Sonadezi Châu Đức",
+        "exchange": "HOSE",
+        "industry": "Khu công nghiệp"
+      },
+      {
+        "ticker": "VCG",
+        "name": "Tổng Công ty Cổ phần Xuất nhập khẩu và Xây dựng Việt Nam (Vinaconex)",
+        "exchange": "HOSE",
+        "industry": "Xây dựng và bất động sản"
+      },
+      {
+        "ticker": "CTD",
+        "name": "Công ty Cổ phần Xây dựng Coteccons",
+        "exchange": "HOSE",
+        "industry": "Xây dựng"
+      },
+      {
+        "ticker": "HHV",
+        "name": "Công ty Cổ phần Đầu tư Hạ tầng Giao thông Đèo Cả",
+        "exchange": "HOSE",
+        "industry": "Hạ tầng giao thông"
+      },
+      {
+        "ticker": "CII",
+        "name": "Công ty Cổ phần Đầu tư Hạ tầng Kỹ thuật Thành phố Hồ Chí Minh",
+        "exchange": "HOSE",
+        "industry": "Hạ tầng kỹ thuật"
+      }
+    ],
+    "ticker_mentions": {
+      "NVL": 2215,
+      "VIC": 1941,
+      "VHM": 1771,
+      "DXG": 273,
+      "VRE": 272,
+      "CTD": 245,
+      "PDR": 235,
+      "NLG": 210,
+      "HHV": 189,
+      "KBC": 188,
+      "BCM": 169,
+      "VCG": 165,
+      "KDH": 134,
+      "DIG": 127,
+      "CEO": 38,
+      "SZC": 30,
+      "CII": 1
+    },
+    "total_mentions": 8203
+  },
+  "top_statistics": {
+    "top_5_sources": [
+      {
+        "rank": 1,
+        "name": "API:CafeBiz BĐS",
+        "count": 19999
+      },
+      {
+        "rank": 2,
+        "name": "API:CafeBiz TC",
+        "count": 15922
+      },
+      {
+        "rank": 3,
+        "name": "API:CafeF DN",
+        "count": 10436
+      },
+      {
+        "rank": 4,
+        "name": "API:CafeF Vĩ mô",
+        "count": 10419
+      },
+      {
+        "rank": 5,
+        "name": "API:CafeF TC",
+        "count": 10339
+      }
+    ],
+    "top_5_tickers": [
+      {
+        "rank": 1,
+        "ticker": "NVL",
+        "count": 2215
+      },
+      {
+        "rank": 2,
+        "ticker": "VIC",
+        "count": 1941
+      },
+      {
+        "rank": 3,
+        "ticker": "VHM",
+        "count": 1771
+      },
+      {
+        "rank": 4,
+        "ticker": "DXG",
+        "count": 273
+      },
+      {
+        "rank": 5,
+        "ticker": "VRE",
+        "count": 272
+      }
+    ],
+    "top_3_categories": [
+      {
+        "rank": 1,
+        "name": "BĐS",
+        "count": 45092
+      },
+      {
+        "rank": 2,
+        "name": "TC",
+        "count": 27538
+      },
+      {
+        "rank": 3,
+        "name": "CK",
+        "count": 12442
+      }
+    ]
+  }
+}
